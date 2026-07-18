@@ -1,0 +1,22 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "A Discord music bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "@discordjs/voice": "^0.16.0",
+    "@discordjs/opus": "^0.9.0",
+    "libsodium-wrappers": "^0.7.13",
+    "ytdl-core": "^4.11.5",
+    "play-dl": "^1.9.7"
+  },
+  "engines": {
+    "node": "18.0.0"
+  }
+}
+
